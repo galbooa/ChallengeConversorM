@@ -1,4 +1,4 @@
-# Convertidor de Monedas
+# Challenge Oracle - Alura / Convertidor de Monedas
 
 Este proyecto es un convertidor de divisas desarrollado en JavaScript. Permite realizar conversiones entre diferentes monedas utilizando una API para las tasas de cambio actuales.
 

@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #252566;
+}
+
+.cuadro {
+    width: 90%;
+    max-width: 25em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.detalles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icono {
+    width: 9.37em;
+}
+
+.titucentral {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+input#cantidad {
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #252566;
+    color: #252566;
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
+input#cantidad:focus {
+    color: rgb(34, 34, 34);
+    border-color: #252566;
+}
+
+.drop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+select {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    border-radius: 0.2em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("img/flecha.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%, center;
+    background-size: 30px 30px;
+    background-color: rgb(175, 175, 175);
+    color: #ffffff;
+}
+
+select option {
+    background-color: #d6d6d6;
+    color: #363636;
+}
+
+button {
+    background-color: #5e5e85;
+    width: 100%;
+    color: #ffffff;
+    padding: 1em 0;
+    font-size: 1.1em;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resultado {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #ffffff;
+    background-color: #363636;
+    padding: 0.8em;
+    border-radius: 10px;
+}
